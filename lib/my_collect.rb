@@ -7,6 +7,7 @@ def my_collect(name_array)
     mod_array << yield(name_array[i])
     i += 1 
   end
+  mod_array
 end 
 binding.pry
 my_collect(["ruby","javascript","python","objective-c"]) {|language| language.upcase}
