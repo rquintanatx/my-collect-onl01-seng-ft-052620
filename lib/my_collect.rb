@@ -1,3 +1,4 @@
+require 'pry'
 
 def my_collect(name_array)
   i = 0 
